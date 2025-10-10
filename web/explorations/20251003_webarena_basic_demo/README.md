@@ -12,6 +12,8 @@ python -c "import nltk; nltk.download('punkt_tab')"
 
 * Setting environment variables 
 ```
+export PUBLIC_HOSTNAME=localhost
+
 # These ports are assigned by Di on NLP12 and forwarded to NLP7
 export SHOPPING_PORT=8082
 export SHOPPING_ADMIN_PORT=8083
